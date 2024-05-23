@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1715235191.772856166, "rt":8.23, "ut":0.39, "st":0.16}}
+{"vcselab":{"timestamp_begin":1715235200.043501609, "rt":2.94, "ut":0.11, "st":0.06}}
+{"link":{"timestamp_begin":1715235203.014469118, "rt":0.74, "ut":0.08, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1715235191.438760976}
+{"VCS_COMP_START_TIME": 1715235191.438760976}
+{"VCS_COMP_END_TIME": 1715235204.480357996}
+{"VCS_USER_OPTIONS": "-sverilog +vc -Mupdate -line -full64 -kdb -lca -nc -debug_access+all+reverse +warn=noTFIPC +warn=noDEBUG_DEP +warn=noENUMASSIGN +warn=noLCA_FEATURES_ENABLED +define+CLOCK_PERIOD=100.0 test/pipeline_test.sv test/pipeline_print.c test/mem.sv verilog/pipeline.sv verilog/regfile.sv verilog/icache.sv verilog/mult.sv verilog/mult_stage.sv -o simv"}
+{"vcs1": {"peak_mem": 550992}}
+{"vcselab": {"peak_mem": 254416}}
