@@ -24,7 +24,6 @@ module mult (
     logic [63:0] mcand_out, mplier_out; // unused, just for wiring
 
     // instantiate an array of mult_stage modules
-    // this uses concatenation syntax for internal wiring, see lab 2 slides
     mult_stage mstage [`MULT_STAGES-1:0] (
         .clock (clock),
         .reset (reset),
